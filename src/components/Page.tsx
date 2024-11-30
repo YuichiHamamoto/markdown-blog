@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import "./Page.css";
+import { InstagramEmbed } from "react-social-media-embed";
 
 interface Props {
   fileName: string;
@@ -21,7 +22,12 @@ function Page(props: Props) {
 
   return (
     <div className="page">
-      <ReactMarkdown children={content} />
+      <ReactMarkdown
+        children={content}
+        components={{
+          h6: (props) => <InstagramEmbed url={props.children?.toString() ?? ""} />,
+        }}
+      />
     </div>
   );
 }

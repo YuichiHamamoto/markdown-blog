@@ -8,8 +8,6 @@
 
 ##### This is h5 Heading
 
-###### h6 Heading
-
 A paragraph with _italic_, **bold**, and **_italic bold_**.
 
 > A block quote with a URL: https://reactjs.org.
