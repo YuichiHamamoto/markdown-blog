@@ -1,0 +1,50 @@
+body {
+  --mono_100: #f8f9fa;
+  --mono_200: #e9ecef;
+  --mono_300: #dee2e6;
+  --mono_400: #ced4da;
+  --mono_500: #adb5bd;
+  --mono_600: #6c757d;
+  --mono_700: #495057;
+  --mono_800: #343a40;
+  --mono_900: #212529;
+
+  --egg: #fef9c3;
+  --yellow: #fef263;
+  --green: #839b5c;
+  --blue: #2c4c64;
+  --pink: #f9a8d4;
+  --red: #d3381c;
+  --orange: #ee7800;
+  --purple: #a59aca;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fffef7;
+  display: flex;
+  flex-direction: row;
+}
+
+.app_navbar {
+  padding: 30px 10px;
+  box-shadow: 5px 0 5px -2px #888;
+  font-weight: 600;
+}
+
+.app_navbar > div {
+  height: 20px;
+  padding-bottom: 10px;
+}
+
+.app_navbar_item {
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
